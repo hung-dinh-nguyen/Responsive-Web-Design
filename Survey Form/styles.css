@@ -1,0 +1,52 @@
+header {
+    text-align: center;
+  }
+  
+  body { 
+  background-image: url(https://thedailycougar.com/wp-content/uploads/2022/04/print_Opinion_Video-Game-workers-need-Unions_juana-garcia-1-620x413.png);
+  padding: 15px;
+  max-width: 500px;
+  margin:0 auto;
+  }
+  
+  div {
+    background-color: rgba(255,204,203,0.8);
+    padding: 10px;
+  }
+  
+  label { 
+    display: block;
+    width: 100%; 
+  }
+  
+  h1 {
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 5 auto;
+  }
+  
+  input {
+    width: 100%;
+    margin: 3 auto 10 auto;
+  }
+  
+  input[type="radio"] {
+    width: unset;
+  }
+  
+  input[type="checkbox"] {
+    width: unset;
+  }
+  
+  select {
+    width: 100%;
+    margin: 3 auto 10 auto;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 3 auto 10 auto;
+  }
+  

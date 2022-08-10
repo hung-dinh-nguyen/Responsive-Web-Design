@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+  <link rel="stylesheet" href="styles.css">
+  <header>
+  <h1 id="title">Esports Registration Form</h1> 
+    <p id="description">Where Champions Are Made!</p>
+  </header>
+
+  <body> 
+
+<!--Start of Contact Info-->
+
+    <div>
+      <form id="survey-form" class="contacts" action="https://survey-form.freecodecamp.rocks">
+
+<!--General Contact Info-->
+
+        <label id="name-label">Full Name <input id="name" type="text" placeholder="Full Name" required></label>   
+        <label id="email-label">Email <input id="email" type="email" placeholder="Email" required></label>   
+        <label id="number-label">Age <input id="number" type="number" min="13" max="100" placeholder="Age" required></label>   
+
+<!--School Year-->
+
+        <label>School Year
+        <select id="dropdown" >
+          <optgroup label="Select an option">
+          <option>N/A</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+        </select> 
+        </label>
+
+<!--Gender-->
+
+        <label>Gender</label>
+
+        <label><input name="gender" type="radio" value="male"> Male</label>
+        <label><input name="gender" type="radio" value="female"> Female</label>
+        <label><input name="gender" type="radio" value="other"> Other</label>
+
+
+
+<!--End of Contact Info-->
+
+<!--Start of Esports-->
+
+        <label>Tournament</label>
+
+        <label><input type="checkbox" value="overwatch"> Overwatch</label>
+        <label><input type="checkbox" value="valorant"> Valorant</label>
+        <label><input type="checkbox" value="csgo"> CSGO</label>
+        <label><input type="checkbox" value="lol"> LOL</label>
+
+<!--End of Esports-->
+
+        <label>Any comments or suggestions <textarea id="comments" placeholder="Enter your comments or suggestions here..."></textarea></label> 
+
+        <input id="submit" type="submit" value="Submit"> 
+
+        </div> 
+  </body> 
+
+</html> 
